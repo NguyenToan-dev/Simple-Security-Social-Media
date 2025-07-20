@@ -88,15 +88,15 @@ PrivyNet là một ứng dụng mạng xã hội demo đơn giản tập trung v
 ## 📂 Cấu trúc thư mục
 ```plaintext
 PrivyNet/
+|── data/
 ├── src/
+|   ├── image/
 │   ├── MainWindow.h/cpp
 │   ├── LoginWindow.h/cpp
 │   ├── ChatListDialog.h/cpp
 │   ├── MessageBox.h/cpp
 │   └── AuthManager.h/cpp
-├── resources/
-│   └── images, icons...
-├── CMakeLists.txt hoặc PRIVYNET.pro
+├── Username.txt
 └── README.md
 
 ```
