@@ -1,6 +1,6 @@
 # PrivyNet
 
-PrivyNet là một ứng dụng mạng xã hội đơn giản tập trung vào bảo mật và mã hoá dữ liệu. Dự án được xây dựng bằng Qt/C++, với các thành phần chính quản lý việc đăng ký, đăng nhập, danh sách chat và hộp thoại nhắn tin.
+PrivyNet là một ứng dụng mạng xã hội demo đơn giản tập trung vào bảo mật, mã hoá dữ liệu. Dự án được xây dựng bằng Qt/C++, với các thành phần chính quản lý việc đăng ký, đăng nhập, danh sách chat và hộp thoại nhắn tin.
 
 ## 🚀 Tính năng chính
 
