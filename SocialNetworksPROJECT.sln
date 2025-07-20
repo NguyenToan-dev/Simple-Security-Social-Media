@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BAI 3", "BAI 3\BAI 3.vcxproj", "{2D3E26F0-6431-4A87-86F6-BC4D2469F39B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D3E26F0-6431-4A87-86F6-BC4D2469F39B}.Debug|x64.ActiveCfg = Debug|x64
+		{2D3E26F0-6431-4A87-86F6-BC4D2469F39B}.Debug|x64.Build.0 = Debug|x64
+		{2D3E26F0-6431-4A87-86F6-BC4D2469F39B}.Release|x64.ActiveCfg = Release|x64
+		{2D3E26F0-6431-4A87-86F6-BC4D2469F39B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {928B3A39-4F94-4E8B-A2FC-F44567CE7764}
+	EndGlobalSection
+EndGlobal
