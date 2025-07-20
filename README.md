@@ -86,7 +86,7 @@ PrivyNet là một ứng dụng mạng xã hội đơn giản tập trung vào b
 ---
 
 ## 📂 Cấu trúc thư mục
-
+```plaintext
 PrivyNet/
 ├── src/
 │   ├── MainWindow.h/cpp
@@ -99,4 +99,4 @@ PrivyNet/
 ├── CMakeLists.txt hoặc PRIVYNET.pro
 └── README.md
 
-
+```
