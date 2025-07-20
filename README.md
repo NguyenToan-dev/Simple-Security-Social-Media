@@ -27,10 +27,10 @@ PrivyNet là một ứng dụng mạng xã hội đơn giản tập trung vào b
 
 ## 🏗️ Kiến trúc và thành phần
 
-* Sơ đồ UML
+###  Sơ đồ UML
 ![UML Diagram](UML%20DIAGRAM.png)
 
-* Các lớp chính
+###  Các lớp chính
 
 1. AuthManager (Singleton)
 
