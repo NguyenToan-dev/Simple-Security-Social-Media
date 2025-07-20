@@ -23,11 +23,12 @@ PrivyNet là một ứng dụng mạng xã hội đơn giản tập trung vào b
 * Singleton AuthManager
 
 * Quản lý tập trung các chức năng đăng ký, xác thực và mã hoá.
+---
 
 ## 🏗️ Kiến trúc và thành phần
 
 * Sơ đồ UML
-![UML Diagram](UML DIAGRAM.png)
+![UML Diagram](UML%20DIAGRAM.png)
 
 * Các lớp chính
 
@@ -72,14 +73,17 @@ PrivyNet là một ứng dụng mạng xã hội đơn giản tập trung vào b
 - Sử dụng QStackedWidget để chuyển đổi giữa các màn hình.
 
 - Kết nối tín hiệu/slot giữa các thành phần giao diện.
+---
 
 ## ⚙️ Cài đặt và chạy
 
 
+---
 
 ## 🔐 Bảo mật
 
 
+---
 
 ## 📂 Cấu trúc thư mục
 
