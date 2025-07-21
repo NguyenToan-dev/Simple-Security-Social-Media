@@ -20,7 +20,7 @@ PrivyNet là một dự án mạng xã hội demo đơn giản, tập trung vào
 
 * Hộp thoại nhắn tin
 
-* Mã hoá nội dung trước khi lưu (AES hoặc tương đương).
+* Mã hoá nội dung trước khi lưu (Libsodium (XSalsa20-Poly1305)).
 
 * Hiển thị lịch sử tin nhắn dưới dạng cuộn.
 
