@@ -97,8 +97,8 @@ username : salt : hashed_password
 ### ✉️ Mã hóa tin nhắn
 - Tin nhắn giữa người dùng được mã hóa bằng Libsodium với thuật toán XSalsa20-Poly1305, sử dụng API crypto_secretbox_easy.
 - Mỗi tin nhắn được mã hóa bằng:
-+ Khóa bí mật 32 byte: được dẫn xuất từ chatKey + server secret bằng SHA‑256.
-+ Nonce (số ngẫu nhiên duy nhất): 24 byte được tạo mới mỗi lần gửi tin.
+  * Khóa bí mật 32 byte: được dẫn xuất từ chatKey + server secret bằng SHA‑256.
+  * Nonce (số ngẫu nhiên duy nhất): 24 byte được tạo mới mỗi lần gửi tin.
 - Sau khi mã hóa, dữ liệu được đóng gói thành:
 ```sh
 base64( nonce || ciphertext )
@@ -114,9 +114,9 @@ Nhờ kết hợp:
 - Mã hóa tin nhắn với nonce và MAC.
 - Dẫn xuất khóa an toàn từ chatKey.
 → Hệ thống đảm bảo an toàn mật khẩu, bảo vệ nội dung truyền thông, và ngăn chặn các cuộc tấn công phổ biến trong thực tế như:
-- Replay attack
-- Tampering (chỉnh sửa dữ liệu)
-- Ciphertext injection
+  * Replay attack
+  * Tampering (chỉnh sửa dữ liệu)
+  * Ciphertext injection
 ---
 
 ## 📂 Cấu trúc thư mục
