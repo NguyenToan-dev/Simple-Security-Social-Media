@@ -1,6 +1,10 @@
 # PrivyNet
 
-PrivyNet là một ứng dụng mạng xã hội demo đơn giản tập trung vào bảo mật, mã hoá dữ liệu. Dự án được xây dựng bằng Qt/C++, với các thành phần chính quản lý việc đăng ký, đăng nhập, danh sách chat và hộp thoại nhắn tin.
+PrivyNet là một dự án mạng xã hội demo đơn giản, tập trung vào quyền riêng tư và bảo mật thông tin người dùng. Dự án được phát triển bằng Qt/C++, bao gồm các chức năng chính như đăng ký, đăng nhập, danh sách bạn bè và hộp thoại nhắn tin riêng tư.
+Điểm nổi bật của PrivyNet là sử dụng thư viện mã hóa hiện đại [Libsodium], giúp đảm bảo:
+- Mật khẩu được băm an toàn với salt
+- Tin nhắn được mã hóa end-to-end bằng XSalsa20-Poly1305
+- Toàn vẹn và xác thực dữ liệu qua MAC
 
 ## 🚀 Tính năng chính
 
